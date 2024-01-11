@@ -1,3 +1,4 @@
+import { Features } from "./features";
 import { Logo } from "./logo";
 import { Toggle, ToggleSkeleton } from "./toggle";
 import { Wrapper } from "./wrapper";
@@ -7,7 +8,9 @@ const Sidebar = async () => {
     <Wrapper>
       <Logo />
       <Toggle />
-      <div className="space-y-4 pt-4 lg:pt-0"></div>
+      <div className="space-y-4 pt-4 lg:pt-0">
+        <Features />
+      </div>
     </Wrapper>
   );
 };
