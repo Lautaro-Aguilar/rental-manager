@@ -1,4 +1,4 @@
-import { Gauge, CalendarDays, CheckSquare } from "lucide-react";
+import { Gauge, CalendarDays, CheckSquare, Home, Settings } from "lucide-react";
 
 export const features = [
   {
@@ -8,15 +8,27 @@ export const features = [
     href: "/dashboard",
   },
   {
+    id: 2,
+    label: "Calendar",
+    icon: CalendarDays,
+    href: "/calendar",
+  },
+  {
     id: 3,
     label: "Tasks",
     icon: CheckSquare,
     href: "/tasks",
   },
   {
-    id: 2,
-    label: "Calendar",
-    icon: CalendarDays,
-    href: "/calendar",
+    id: 4,
+    label: "Houses",
+    icon: Home,
+    href: "/houses",
+  },
+  {
+    id: 5,
+    label: "Settings",
+    icon: Settings,
+    href: "/settings",
   },
 ];
