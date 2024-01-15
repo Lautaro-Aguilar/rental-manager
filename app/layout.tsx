@@ -19,14 +19,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-[url(/body-background.webp)] bg-cover`}
+        className={`${inter.className} bg-[url(/body-background.webp)] bg-cover h-auto relative min-h-screen w-full`}
       >
         <ThemeProvider
           attribute="class"
           forcedTheme="dark"
           storageKey="place4stream-theme"
         >
-          <div className="w-full h-full backdrop-brightness-75 absolute top-0 right-0" />
+          {/* <div className="w-full h-full backdrop-brightness-75 absolute " /> */}
           {children}
         </ThemeProvider>
       </body>
