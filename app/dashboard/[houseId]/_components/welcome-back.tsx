@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button";
 
 export const WelcomeBackCard = () => {
   return (
-    <div className="w-full max-w-full mb-6 sm:w-1/2 sm:flex-none xl:mb-0 xl:w-2/4">
-      <div className="relative overflow-hidden bg-cover h-72 rounded-xl flex flex-col justify-between bg-[url(https://images.unsplash.com/photo-1502514841534-dceabea28dad?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-center bg-no-repeat)]">
+    <div className="w-full max-w-full h-full mb-6 sm:flex-none xl:mb-0">
+      <div className="relative overflow-hidden h-full bg-cover rounded-xl flex flex-col justify-between bg-[url(https://images.unsplash.com/photo-1502514841534-dceabea28dad?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-center bg-no-repeat)]">
         <div className="backdrop-brightness-[.25]">
           <span className="absolute top-0 left-0 w-full h-full bg-center bg-cover"></span>
           <div className="relative z-10 flex flex-col flex-auto h-full p-4">

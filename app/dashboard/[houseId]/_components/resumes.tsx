@@ -37,7 +37,7 @@ export const Resumes = () => {
     },
   ];
   return (
-    <div className="flex flex-wrap ">
+    <div className="flex flex-wrap">
       {data.map(({ description, icon, id, percentage, title, value }) => (
         <ResumeCard
           key={id}
