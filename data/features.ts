@@ -5,7 +5,7 @@ export const features = [
     id: 1,
     label: "Dashboard",
     icon: Gauge,
-    href: "/dashboard",
+    href: "/dashboard/1",
   },
   {
     id: 2,
