@@ -12,11 +12,11 @@ export const WelcomeBackCard = () => {
           <div className="relative z-10 flex flex-col flex-auto h-full p-4">
             <h5 className="pt-2 text-muted-foreground">Welcome back,</h5>
             <h2 className="scroll-m-20 text-3xl font-semibold tracking-tight first:mt-0">
-              Mark Johnson
+              Lautaro Aguilar
             </h2>
             <p className="leading-7 [&:not(:first-child)]:mt-6 text-muted-foreground">
               Glad to see you again! <br />
-              Ask me anything
+              See more in other categories
             </p>
           </div>
         </div>
